@@ -1,0 +1,55 @@
+polybiuslab2 1.0.0, Python 3.13.17
+
+##### Алфавіт: ua, ключове слово: ІНФОРМАЦІЯ #####
+    1 2 3 4 5 6
+1   І Н Ф О Р М
+2   А Ц Я Б В Г
+3   Ґ Д Е Є Ж З
+4   И Ї Й К Л П
+5   С Т У Х Ч Ш
+6   Щ Ь Ю 0 1 2
+
+== Полібій coordinates (ключ: ІНФОРМАЦІЯ) ==
+відкритий:   ҐАНОКЄНОТЇЖАКІВАН2012
+шифротекст:  31 21 12 14 44 34 12 14 52 42 35 21 44 11 25 21 12 66 64 65 66
+розшифровано: ҐАНОКЄНОТЇЖАКІВАН2012
+відновлено коректно: True
+
+== Полібій row shift (ключ: ІНФОРМАЦІЯ) ==
+відкритий:   Ґанок, Єнот, Їжак та Іван: безпека даних — відповідальність кожного! 2026
+шифротекст:  ИҐЦБХ, КЦБЬ, ТЛҐХ ЬҐ АЖҐЦ: ЄЙПШЙХҐ ЇҐЦС0 — ЖАЇШБЖАЇҐЧНЦАЩЬН ХБЛЦБЗБ! МОМ6
+розшифровано: ҐАНОК, ЄНОТ, ЇЖАК ТА ІВАН: БЕЗПЕКА ДАНИХ — ВІДПОВІДАЛЬНІСТЬ КОЖНОГО! 2026
+відновлено коректно: True
+
+== Гронсфельд (ключ: 0517) ==
+відкритий:   Ґанок, Єнот, Їжак та Іван: безпека даних — відповідальність кожного! 2026
+шифротекст:  ҐДОХК, ЇОХТ, НЗЄК ЧБ ОВДО: ЖЕКРЙКД ЕЄНЛЦ — ЗІИРХВМЕЄЛВООСЧЮ СОЙОХГУ! 2026
+розшифровано: ҐАНОК, ЄНОТ, ЇЖАК ТА ІВАН: БЕЗПЕКА ДАНИХ — ВІДПОВІДАЛЬНІСТЬ КОЖНОГО! 2026
+відновлено коректно: True
+
+##### Алфавіт: en, ключове слово: CRYPTOGRAPHY #####
+    1 2 3 4 5 6
+1   C R Y P T O
+2   G A H B D E
+3   F I J K L M
+4   N Q S U V W
+5   X Z 0 1 2 3
+6   4 5 6 7 8 9
+
+== Полібій coordinates (ключ: CRYPTOGRAPHY) ==
+відкритий:   AZHELLOWORLD2026
+шифротекст:  22 52 23 26 35 35 16 46 16 12 35 25 55 53 55 63
+розшифровано: AZHELLOWORLD2026
+відновлено коректно: True
+
+== Полібій row shift (ключ: CRYPTOGRAPHY) ==
+відкритий:   Zebra quickly packs 5 boxes with a dozen jars: always verify, never trust blindly. A to Z!
+шифротекст:  5MKAI Z1QGUVH BIGU0 R KE4M0 3QDJ I LE5MX SIA0: IV3IH0 2MAQNH, XM2MA DA10D KVQXLVH. I DE 5!
+розшифровано: ZEBRA QUICKLY PACKS 5 BOXES WITH A DOZEN JARS: ALWAYS VERIFY, NEVER TRUST BLINDLY. A TO Z!
+відновлено коректно: True
+
+== Гронсфельд (ключ: 4096) ==
+відкритий:   Zebra quickly packs 5 boxes with a dozen jars: always verify, never trust blindly. A to Z!
+шифротекст:  DEKXE QDOGKUE TALQW 5 BXDIS FOXH J JSZNT NAAY: ELFGCS EKVIOE, REEKV TAAWT KRMNMRC. A CU D!
+розшифровано: ZEBRA QUICKLY PACKS 5 BOXES WITH A DOZEN JARS: ALWAYS VERIFY, NEVER TRUST BLINDLY. A TO Z!
+відновлено коректно: True

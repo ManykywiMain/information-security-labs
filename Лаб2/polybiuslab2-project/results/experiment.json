@@ -1,0 +1,127 @@
+{
+  "program_version": "1.0.0",
+  "python": "3.13.17",
+  "platform": "Linux-6.18.44-fc-v165-x86_64-with-glibc2.39",
+  "runs": [
+    {
+      "language": "ua",
+      "title": "Полібій coordinates",
+      "algorithm": "polybius-coordinates",
+      "key": "ІНФОРМАЦІЯ",
+      "keyword": "ІНФОРМАЦІЯ",
+      "plaintext": "ҐАНОКЄНОТЇЖАКІВАН2012",
+      "note": "'ҐАНОК ЄНОТ ЇЖАК ІВАН 2012' -> без пробільних символів (видалено 4)",
+      "ciphertext": "31 21 12 14 44 34 12 14 52 42 35 21 44 11 25 21 12 66 64 65 66",
+      "decrypted": "ҐАНОКЄНОТЇЖАКІВАН2012",
+      "restored": true,
+      "square_rows": [
+        "ІНФОРМ",
+        "АЦЯБВГ",
+        "ҐДЕЄЖЗ",
+        "ИЇЙКЛП",
+        "СТУХЧШ",
+        "ЩЬЮ012"
+      ]
+    },
+    {
+      "language": "ua",
+      "title": "Полібій row shift",
+      "algorithm": "polybius-row-shift",
+      "key": "ІНФОРМАЦІЯ",
+      "keyword": "ІНФОРМАЦІЯ",
+      "plaintext": "Ґанок, Єнот, Їжак та Іван: безпека даних — відповідальність кожного! 2026",
+      "note": "",
+      "ciphertext": "ИҐЦБХ, КЦБЬ, ТЛҐХ ЬҐ АЖҐЦ: ЄЙПШЙХҐ ЇҐЦС0 — ЖАЇШБЖАЇҐЧНЦАЩЬН ХБЛЦБЗБ! МОМ6",
+      "decrypted": "ҐАНОК, ЄНОТ, ЇЖАК ТА ІВАН: БЕЗПЕКА ДАНИХ — ВІДПОВІДАЛЬНІСТЬ КОЖНОГО! 2026",
+      "restored": true,
+      "square_rows": [
+        "ІНФОРМ",
+        "АЦЯБВГ",
+        "ҐДЕЄЖЗ",
+        "ИЇЙКЛП",
+        "СТУХЧШ",
+        "ЩЬЮ012"
+      ]
+    },
+    {
+      "language": "ua",
+      "title": "Гронсфельд",
+      "algorithm": "gronsfeld",
+      "key": "0517",
+      "keyword": "ІНФОРМАЦІЯ",
+      "plaintext": "Ґанок, Єнот, Їжак та Іван: безпека даних — відповідальність кожного! 2026",
+      "note": "",
+      "ciphertext": "ҐДОХК, ЇОХТ, НЗЄК ЧБ ОВДО: ЖЕКРЙКД ЕЄНЛЦ — ЗІИРХВМЕЄЛВООСЧЮ СОЙОХГУ! 2026",
+      "decrypted": "ҐАНОК, ЄНОТ, ЇЖАК ТА ІВАН: БЕЗПЕКА ДАНИХ — ВІДПОВІДАЛЬНІСТЬ КОЖНОГО! 2026",
+      "restored": true,
+      "square_rows": [
+        "ІНФОРМ",
+        "АЦЯБВГ",
+        "ҐДЕЄЖЗ",
+        "ИЇЙКЛП",
+        "СТУХЧШ",
+        "ЩЬЮ012"
+      ]
+    },
+    {
+      "language": "en",
+      "title": "Полібій coordinates",
+      "algorithm": "polybius-coordinates",
+      "key": "CRYPTOGRAPHY",
+      "keyword": "CRYPTOGRAPHY",
+      "plaintext": "AZHELLOWORLD2026",
+      "note": "'AZ HELLO WORLD 2026' -> без пробільних символів (видалено 3)",
+      "ciphertext": "22 52 23 26 35 35 16 46 16 12 35 25 55 53 55 63",
+      "decrypted": "AZHELLOWORLD2026",
+      "restored": true,
+      "square_rows": [
+        "CRYPTO",
+        "GAHBDE",
+        "FIJKLM",
+        "NQSUVW",
+        "XZ0123",
+        "456789"
+      ]
+    },
+    {
+      "language": "en",
+      "title": "Полібій row shift",
+      "algorithm": "polybius-row-shift",
+      "key": "CRYPTOGRAPHY",
+      "keyword": "CRYPTOGRAPHY",
+      "plaintext": "Zebra quickly packs 5 boxes with a dozen jars: always verify, never trust blindly. A to Z!",
+      "note": "",
+      "ciphertext": "5MKAI Z1QGUVH BIGU0 R KE4M0 3QDJ I LE5MX SIA0: IV3IH0 2MAQNH, XM2MA DA10D KVQXLVH. I DE 5!",
+      "decrypted": "ZEBRA QUICKLY PACKS 5 BOXES WITH A DOZEN JARS: ALWAYS VERIFY, NEVER TRUST BLINDLY. A TO Z!",
+      "restored": true,
+      "square_rows": [
+        "CRYPTO",
+        "GAHBDE",
+        "FIJKLM",
+        "NQSUVW",
+        "XZ0123",
+        "456789"
+      ]
+    },
+    {
+      "language": "en",
+      "title": "Гронсфельд",
+      "algorithm": "gronsfeld",
+      "key": "4096",
+      "keyword": "CRYPTOGRAPHY",
+      "plaintext": "Zebra quickly packs 5 boxes with a dozen jars: always verify, never trust blindly. A to Z!",
+      "note": "",
+      "ciphertext": "DEKXE QDOGKUE TALQW 5 BXDIS FOXH J JSZNT NAAY: ELFGCS EKVIOE, REEKV TAAWT KRMNMRC. A CU D!",
+      "decrypted": "ZEBRA QUICKLY PACKS 5 BOXES WITH A DOZEN JARS: ALWAYS VERIFY, NEVER TRUST BLINDLY. A TO Z!",
+      "restored": true,
+      "square_rows": [
+        "CRYPTO",
+        "GAHBDE",
+        "FIJKLM",
+        "NQSUVW",
+        "XZ0123",
+        "456789"
+      ]
+    }
+  ]
+}
